@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>story telling</title>
+</head>
+
+<body>
+    <div class="back">
+        <div class="card card2">
+            <h2>Complete the Form-<br>Complete the Story </h2>
+            <div class="border1"></div>
+            <form action="showstory.html">
+                <label>Animal:</label>
+                <input type="text" value="" id="animal" name="tiger"><br> <br>
+                <label>Another Animal:</label>
+                <input type="text" value="" id="anotheranimal"><br> <br>
+                <label>One More Animal:</label>
+                <input type="text" id="dog" name="fname" value=""><br> <br>
+                <label>Adjective(past tesnse):</label>
+                <input type="text" value="" id="adj"><br> <br>
+                <label>Verbs(ends in -ing):</label>
+                <input type="text" id="running" name="fname" value=""><br> <br>
+                <label>Number:</label>
+                <input type="text" value="" id="two"><br> <br>
+                <label>Yes or NO:</label>
+                <select id="yn">
+                    <option>
+                        yes
+                    </option>
+                    <option>
+                        No
+                    </option>
+                </select>
+                <br> <br>
+                <label>Relative speed(ens in -er)</label>
+                <select id="re">
+                    <option>
+                        quicker
+                    </option>
+                    <option>
+                        slower
+                    </option>
+                </select>
+                <br> <br>
+                <label>Motivational Quote:</label>
+                <input type="text" id="motivational" name="fname" value=""><br> <br>
+                <label>Meaningful Message:</label> <br> <br>
+                <textarea id="text" >This is messagebox
+          </textarea>
+                <br> <br>
+                <input type="submit" name="sub" value="Form my story" onclick="valueContainer(); ">
+            </form>
+        </div>
+        <script src="index.js">
+        </script>
+    </div>
+</body>
+</html>
